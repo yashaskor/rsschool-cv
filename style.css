@@ -1,11 +1,15 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;   
     background-color: #f5f7fa;
     min-height: 100vh;
     margin: 0; 
     padding: 0;
     display: flex;
-    flex-direction: column;
+    
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -14,6 +18,139 @@ body {
   }
 
 .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.left-content {
+    max-width: 700px;
+}
+
+.photo-content {
+    padding-bottom: 17px;
+    border-bottom: gray 15px solid;
+    padding-top: 7px; 
+}
+
+.photo {
+    width: 200px;
+    height: 270px;
+    border-radius: 20%; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.left-contacts {
+    padding: 10px 10px 35px 10px;
+    border-bottom: rgb(122, 87, 9) 2px solid;
+}
+
+.left-skills {
+    line-height: 1.5;
+    padding: 10px 10px 35px 10px;
+    border-bottom: rgb(122, 87, 9) 2px solid;
+}
+
+span {
+    color: #829985;
+}
+
+.left-courses {
+    padding: 10px 10px 35px 10px;
+    border-bottom: rgb(122, 87, 9) 2px solid;
+}
+
+.left-education {
+    padding: 10px 10px 35px 10px;
+}
+
+.right-content {
+    width: 700px;
+}
+
+.about {
+    padding-top: 70px;
+}
+
+.about-position {
+    color: #5c5c5c;
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.about-name {
+    padding-bottom: 75px;
+    border-bottom: gray 15px solid;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+}
+
+.main-summary {
+    padding: 10px 10px 35px 10px;
+    border-bottom: rgb(122, 87, 9) 2px solid;
+}
+
+.main-code {
+    padding: 10px 10px 35px 10px;
+    border-bottom: rgb(122, 87, 9) 2px solid;
+}
+
+.pre {
+    position: relative;
+    right: 120px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+
+.section-list {
+    /* list-style: none;
+    position: relative;
+    line-height: 2; */
+}
+
+.section-item a{
+    /* padding-left: 30px; */
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+}
+
+.section-item a:hover {
+    color: #4d2323;
+}
+
+.section-item::before {
+    /* content: "";
+    position:absolute;
+    /* top: 13px; */
+    /* left: 15px;
+    width: 10px;
+    height: 10px;
+    background-size: 10px 10px;
+    background-image: url(assets/img/circle.svg); */    
+}
+
+.main-projects {
+    padding: 10px 10px 35px 10px;
+    border-bottom: rgb(122, 87, 9) 2px solid;
+}
+
+.main-language {
+    padding: 10px 10px 35px 10px;
+    /* border-bottom: rgb(122, 87, 9) 2px solid; */
 }
