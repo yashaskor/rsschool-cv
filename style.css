@@ -26,6 +26,7 @@ body {
     margin: 0 auto;
 }
 
+
 .personal-head {
     display: flex;
     justify-content: space-around;
@@ -45,6 +46,12 @@ body {
 
 .section {
     width: calc(50% - 20px);
+}
+
+@media screen and (max-width: 944px) {
+    .section {
+        width: calc(100%);
+    }
 }
 
 .left-contacts {
@@ -151,22 +158,29 @@ span {
     padding: 10px 10px 35px 10px;
 }
 
-.footer {
-    display: flex;
-    justify-content: space-between;
+.footer {    
     width: 100%;
     background-color: #829985;
     color: white;
     padding: 0 20px;
 }
 
-.footer a{
-    text-decoration: none;
-    color: white;
+.footer-list {
+    display: flex;
+    justify-content: space-between;    
+    list-style: none;
+    text-align: center;
 }
 
-.footer img {
-    max-width: 100px;
-    max-height: 50px;
-    margin: auto 0;
+.footer-list a{
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
 }
+
+.footer-item {
+    text-align: center;
+    line-height: 43.5px;
+}
+
