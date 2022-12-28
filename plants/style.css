@@ -43,3 +43,122 @@
          url('fonts/inika-v21-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('fonts/inika-v21-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
+html {
+    box-sizing: border-box;
+}   
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+
+}
+
+/* Header styles start */
+.header {
+    background: #EDF2EC;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.wrapper {
+    max-width: 1222px;
+    margin: 0 auto;
+}
+.header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+.header__logo-link {
+    color: #010201;
+    text-decoration: none;
+    transition: .5s;
+}
+.header__logo-link:hover, .header__logo-link:focus, .header__logo-link:active {
+    opacity: .75;
+}
+.header__list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between; 
+}
+.header__item {    
+   margin-right: 46px;
+}
+.header__item:last-child {
+    margin-right: 0;
+}
+.header__link {
+    color: #010201;
+    text-decoration: none;
+    transition: .5s;
+}
+.header__link:hover, .header__link:focus, .header__link:active {
+    opacity: .75;
+}
+/* Header styles end */
+
+/* Intro styles start */
+.intro {
+    background: #EDF2EC;
+}
+.intro__wrapper {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding-top: 196px;
+    padding-bottom: 62px;
+    gap: 224.2px;
+}
+.leafs {
+    width: 448.8px;
+    height: 407.36px;
+}
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+.intro__text span{
+    color:  #499A18;;
+}
+.intro__text-article {
+    padding-top: 42px;
+    padding-bottom: 48px;
+}
+.intro-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #000000;
+    padding: 14px 27px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.intro-link:hover, .intro-link:focus, .intro-link:active {
+    color: #FFFFFF;
+    background: #E06733;
+    border: 2px solid #E06733;
+}
+
+/* Intro styles end */
