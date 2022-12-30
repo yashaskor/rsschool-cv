@@ -66,7 +66,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 50px;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -85,10 +84,10 @@ body {
 .header__logo-link {
     color: #010201;
     text-decoration: none;
-    transition: .5s;
+    transition: .3s;
 }
 .header__logo-link:hover, .header__logo-link:focus, .header__logo-link:active {
-    opacity: .75;
+    color: #E06733;
 }
 .header__list {
    display: flex;
@@ -104,10 +103,10 @@ body {
 .header__link {
     color: #010201;
     text-decoration: none;
-    transition: .5s;
+    transition: .3s;
 }
 .header__link:hover, .header__link:focus, .header__link:active {
-    opacity: .75;
+    color: #E06733;
 }
 /* Header styles end */
 
@@ -119,13 +118,14 @@ body {
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-between;
-    padding-top: 196px;
-    padding-bottom: 62px;
     gap: 224.2px;
 }
 .leafs {
     width: 448.8px;
     height: 407.36px;
+}
+.intro-topic {
+    padding-top: 36px;
 }
 h1 {
     font-family: 'Inter';
@@ -160,5 +160,76 @@ h1 {
     background: #E06733;
     border: 2px solid #E06733;
 }
-
 /* Intro styles end */
+
+/* About styles start */
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 93px;
+    padding-bottom: 94px;
+    gap: 153px;
+}
+.about-topic {
+    padding-top: 68px;
+    padding-bottom: 40px;
+    width: 463px;
+}
+h2 {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;    
+    color: #499A18;
+}
+.about__text span {
+    color: #E06733;
+}
+/* About styles end */
+
+/* Service styles start */
+.service {
+    background: #EDF2EC;
+    padding-top: 40px;
+}
+.service__activate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-bottom: 90px;
+}
+.service__activate-title {
+    width: 306px;
+    margin-right: 142px;
+}
+.service__activate-choise {
+    text-align: center;
+}
+.service__activate-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 38px;
+    line-height: 94px;
+}
+.general-link {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    border: 1px solid #E06733;
+    padding: 12px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.general-link:hover, .general-link:focus, .general-link:active {
+    border: 1px solid #E06733;
+    color: #FFFFFF;
+    background: #E06733;
+
+}
+
+/* Service styles end */
