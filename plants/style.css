@@ -278,6 +278,10 @@ h2 {
     padding-top: 40px;
     padding-bottom: 115px;
 }
+.prices__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
 .prices__choise {
     border: 1px solid #E3E1D5;
     border-radius: 20px;
@@ -314,7 +318,6 @@ h2 {
     background: #EDF2EC;
     border-radius: 20px;
     padding: 16px 105px 16px 40px;
-
 }
 .active, .accordion:hover {
   background: #D6E7D2;
@@ -332,5 +335,104 @@ h2 {
     background-repeat:no-repeat;
 	background-position:center center;    
 }
-
+.accodion__card {
+    background: #D6E7D2;
+    border-radius: 20px;
+    padding-bottom: 12px;
+    margin-bottom: 32px;
+    display: none;
+}
+.accordion-link {
+    width: 250px;
+    display: inline-block;
+    padding-right: 105px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+    position: relative;    
+    padding: 16px 105px 12px 40px;
+}
+.accordion-link::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #AEA1A1;;
+    background-image: url(assets/svg/arrow_top.svg);
+    left: 180px;   
+    bottom: 18px;
+    background-repeat:no-repeat;
+	background-position:center center;    
+}
+.accordion-text {
+    width: 169px;
+    border-top: 0.5px solid #AEA1A1;
+    padding: 6.5px 0px 6px 0px;
+    margin-left: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 10px;
+    color: #717171;
+}
+.accordion__price-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 40px;
+}
+.accordion__price-text span {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #E06733;
+}
+.accordion__card-link {
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    padding: 3px 20px;
+    margin-left: 39px;
+    text-decoration: none;
+}
+.accordion__card-link:hover {
+    opacity: .85;
+}
+.prices__right {
+    width: 452px;
+}
+.prices__right-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: #000000;
+    padding-bottom: 50px;
+}
+.prices__right-title span {
+    color: #499A18;
+}
+.contact-link {
+    text-align: right;
+    padding-bottom: 51px;
+}
+.leafs__small-pic {
+    text-align: right;
+}
 /* Prices styles end */
