@@ -230,7 +230,6 @@ h2 {
     border: 1px solid #E06733;
     color: #FFFFFF;
     background: #E06733;
-
 }
 .service__cards {
     display: grid;
@@ -280,6 +279,7 @@ h2 {
 }
 .prices__wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .prices__choise {
@@ -408,6 +408,7 @@ h2 {
     padding: 3px 20px;
     margin-left: 39px;
     text-decoration: none;
+    transition: 0.2s;
 }
 .accordion__card-link:hover {
     opacity: .85;
@@ -436,3 +437,91 @@ h2 {
     text-align: right;
 }
 /* Prices styles end */
+
+/* Contact us styles start */
+
+.contact {
+    padding-top: 60px;
+    background: #EDF2EC;
+}
+.contact__wrapper {
+    position: relative;
+    padding-bottom: 439px;
+}
+.contact-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    text-align: center;
+}
+.contact-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;    
+    padding: 5px 35px 5px 20px;    
+    float: right;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-btn active {
+    background: #C1E698;
+    border: 1px solid #D6E7D2;
+    box-shadow: none;
+    display: none;
+}
+/* .contact-btn:hover, .contact-btn:focus, .contact-btn:active {
+    background: #C1E698;
+    border: 1px solid #D6E7D2;
+    box-shadow: none;
+} */
+.contact__woman {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/* Contact us styles end */
+
+/* Footer styles start */
+
+.footer {
+    padding: 40px 0;    
+}
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer__wrapper a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+    text-decoration: none;
+    transition: .3s;
+}
+.footer__wrapper a:hover {
+    opacity: .75;
+}
+.git__logo-link {
+    word-spacing: 15px;
+}
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Footer styles end */
