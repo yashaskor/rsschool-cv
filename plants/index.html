@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plants</title>
+    <link rel="icon" type="image/x-icon" href="assets/svg/logo_plants.svg">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header class="header">
@@ -24,16 +26,16 @@
                             <a href="#" class="header__link">Home</a>
                         </li>
                         <li class="header__item">
-                            <a href="#" class="header__link">About us</a>
+                            <a href="#intro" class="header__link">About us</a>
                         </li>
                         <li class="header__item">
-                            <a href="#" class="header__link">Service</a>
+                            <a href="#service" class="header__link">Service</a>
                         </li>
                         <li class="header__item">
-                            <a href="#" class="header__link">Price</a>
+                            <a href="#price" class="header__link">Price</a>
                         </li>
                         <li class="header__item">
-                            <a href="#" class="header__link">Contacts</a>
+                            <a href="#contact" class="header__link">Contacts</a>
                         </li>
                     </ul>
                 </nav>
@@ -41,14 +43,14 @@
         </div>
     </header>
     <main class="main">
-        <section class="intro">
+        <section class="intro" id="intro">
             <div class="wrapper">
                 <div class="intro__wrapper">
                     <div class="intro-img"> <img src="assets/svg/leafs.svg" alt="leafs" class="leafs"></div>                   
                     <div class="intro__text">
                         <h1 class="intro-topic">We grow <span>plants</span> and give you oxygen</h1>
                         <p class="intro__text-article">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                        <a href="#" class="intro-link">LEARN MORE</a>
+                        <button class="intro-link">LEARN MORE</button>
                     </div>
                 </div>
             </div>
@@ -64,7 +66,7 @@
                 </div>
             </div>
         </section>
-        <section class="service">
+        <section class="service" id="service">
             <div class="wrapper">
                 <div class="service_wrapper">
                     <div class="service__activate">
@@ -72,13 +74,13 @@
                         <div class="service__activate-choise">
                             <ul class="service__activate-links">
                                 <li class="general-item">
-                                    <a href="#" class="general-link">Gardens</a>
+                                    <button class="general-link">Gardens</button>
                                 </li>
                                 <li class="general-item">
-                                    <a href="#" class="general-link">Lawn</a>
+                                    <button class="general-link">Lawn</button>
                                 </li>
                                 <li class="general-item">
-                                    <a href="#" class="general-link">Planting</a>
+                                    <button class="general-link">Planting</button>                                    
                                 </li>
                             </ul>
                         </div>
@@ -130,11 +132,11 @@
                 </div>
             </div>
         </section>
-        <section class="prices">
+        <section class="prices" id="price">
             <div class="wrapper">
                 <div class="prices__wrapper">
                     <div class="prices__left">
-                        <h2 class="prices__left-title">Prices</h2>
+                        <h3 class="prices__left-title">Prices</h3>
                         <div class="prices__choise">
                             <a href="#" class="accordion">Basics</a>
                             <div class="accodion__card">
@@ -174,7 +176,7 @@
                     <div class="prices__right">
                         <h2 class="prices__right-title">Our best <span>gardeners</span> are ready to help you</h2>  
                         <div class="contact-link">
-                            <a href="#" class="general-link">Contact us</a>
+                            <button class="general-link">Contact us</button>
                         </div>                        
                         <div class="leafs__small-pic">
                             <img src="assets/svg/leafs_small.svg" alt="leafs" class="leafs__small">
@@ -183,7 +185,7 @@
                 </div>                
             </div>            
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="wrapper">
                 <div class="contact__wrapper">
                     <div class="contact__content">
@@ -209,9 +211,9 @@
             <div class="footer__wrapper">
                 <p class="git__logo"><a href="https://github.com/yashaskor" class="git__logo-link">© 2023 github</a></p>
                 <div class="rs">
-                    <a href="https://rs.school/js/" class="rs-link">Rolling Scopes School</a>
+                    <a href="https://rs.school/js-stage0/" class="rs-link">Rolling Scopes School</a>
                 </div>
-                <nav class="footer__nav">
+                <div class="footer__nav">
                     <ul class="footer__list">
                         <li class="footer__item">
                             <a href="https://www.instagram.com/" class="footer-link"><img src="assets/svg/insta.svg" alt="Instagram"></a>
@@ -226,10 +228,10 @@
                             <a href="https://www.pinterest.com/" class="footer-link"><img src="assets/svg/pinterest.svg" alt="Pinterest"></a>
                         </li>
                     </ul>
-                </nav>
+                </div>
             </div>
-        </div>
-        
+        </div>        
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
