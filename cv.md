@@ -1,8 +1,6 @@
 #### rs school-cv
-___
 
 # Yakiv Skorobahatko
-___
 
 ## Contacts  
 
